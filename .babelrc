@@ -1,0 +1,24 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "targets":{
+                    "node": true
+                }
+            }
+        ]
+    ],
+    "env": {
+        "production": {
+          "plugins": [["inline-dotenv",{
+            "path": ".env.production"
+          }]]
+        },
+        "development": {
+          "plugins": [["inline-dotenv",{
+            "path": ".env.development"
+          }]]
+        }
+      }
+}

@@ -1,0 +1,5 @@
+export const checkInStarter = '0 10 * * */'
+export const checkOutStarter = '55 23 * * */'
+export const stockOutStarter = '0 18 * * */'
+export const dashboardStarter = '*/10 * * * *'
+export const unrealizedVisitsStarter = '50 23 * * */'
